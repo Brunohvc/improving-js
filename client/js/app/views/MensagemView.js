@@ -1,7 +1,8 @@
 class MensagemView extends View {
 
-    constructor(elemento) {
+    constructor(elemento, model = { texto: '' }) {
         super(elemento);
+        this.update(model);
     }
 
     template(model) {
