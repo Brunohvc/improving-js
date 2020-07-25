@@ -1,8 +1,7 @@
 class NegociacoesView extends View {
 
-    constructor(elemento, model = { negociacoes: [] }) {
+    constructor(elemento) {
         super(elemento);
-        this.update(model);
     }
 
     template(model) {
